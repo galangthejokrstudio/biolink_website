@@ -11,9 +11,9 @@ import AudioPlayer from "./AudioPlayer";
 
 const Cards = () => {
   return (
-    <div className="relative flex justify-center items-center md:justify-normal md:items-start flex-col gap-4 w-[60%]">
+    <div className="relative flex justify-center items-center md:justify-normal md:items-start flex-col gap-4 md:w-[60%]">
       {/* Profile Card */}
-      <CardFrame className="p-4 pr-5 shadow-lg rounded-lg md:mt-4 top-4 md:top-0 fixed md:relative z-50">
+      <CardFrame className="p-4 pr-5 shadow-lg rounded-lg md:mt-4 top-4 md:top-0 fixed w-[92%] md:w-auto md:relative z-50">
         <div className="flex items-center space-x-4">
           <img src={C} className="object-cover rounded-full w-16 h-16" alt="Profile" />
           <div className="inline-block">
@@ -25,7 +25,7 @@ const Cards = () => {
         </div>
       </CardFrame>
 
-      <div className="md:w-full fixed md:static flex gap-2 md:gap-4 md:p-0 flex-col bottom-4">
+      <div className="md:w-full fixed mx-4 md:mx-0 md:static flex gap-2 md:gap-4 md:p-0 flex-col bottom-4">
         
       {/* Links Card */}
         <CardFrame className="p-4 shadow-lg rounded-lg w-full md:w-max">
