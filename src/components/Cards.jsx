@@ -19,7 +19,7 @@ const Cards = () => {
           <div className="inline-block">
             <h1 className="font-bold text-lg">kyoto</h1>
             <h2 className="text-xs whitespace-nowrap">
-              teen, I code lua, py and react websites<br/>discord: @ilylucas
+              teen, I code lua, py and react websites<br/>discord: @kyoto.q
             </h2>
           </div>
         </div>
