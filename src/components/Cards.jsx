@@ -17,7 +17,7 @@ const Cards = () => {
         <div className="flex items-center space-x-4">
           <img src={C} className="object-cover rounded-full w-16 h-16" alt="Profile" />
           <div className="inline-block">
-            <h1 className="font-bold text-lg">kyoto</h1>
+            <h1 className="font-bold text-lg">Galang ThejokR</h1>
             <h2 className="text-xs whitespace-nowrap">
               teen, I code lua, py and react websites<br/>discord: @kyoto.q
             </h2>
